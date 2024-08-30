@@ -20,7 +20,7 @@ app.get('/api/hello', function(req, res) {
   res.json({ greeting: 'hello API' });
 });
 
-mongoose.connect("mongodb+srv://unknwghost091:sainamainty999armda@codecampe.j7epv.mongodb.net/?retryWrites=true&w=majority&appName=codeCampe", { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://unknwghost091:<password>@codecampe.j7epv.mongodb.net/?retryWrites=true&w=majority&appName=codeCampe", { useNewUrlParser: true, useUnifiedTopology: true });
 
 const schema = mongoose.Schema({
   original_url:{
